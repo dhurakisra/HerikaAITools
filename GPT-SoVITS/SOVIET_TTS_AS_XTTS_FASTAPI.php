@@ -90,7 +90,7 @@ $GLOBALS["TTS_IN_USE"]=function($textString, $mood, $stringforhash) {
     }
 
     // Define server URL and paths (These should be configured as per your setup)
-    $server_url = 'http://127.0.0.1:9880'; // Update if different
+    $server_url = 'http://0.0.0.0:9880'; // Update if different
     $gpt_weights_path = "GPT_SoVITS/pretrained_models/s1bert25hz-2kh-longer-epoch=68e-step=50232.ckpt";
     $sovits_weights_path = "GPT_SoVITS/pretrained_models/s2G488k.pth";
 
